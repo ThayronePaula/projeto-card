@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #02c2b8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-image: url("./images/bg-pattern-top.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,.5);
+   
+    
+}
+.card{
+    width: 350px;
+    height: 360px;
+    background-color: white;
+    border-radius: 2rem;
+    position: relative;
+}
+.card .img-up{
+    width: 100%;
+}
+.img-up img{
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.img-boy{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.img-boy img{
+    border-radius: 4rem;
+    border: .2rem solid #ddd;
+}
+.info-boy{
+    color: black;
+    text-align: center;
+    margin-top: 4rem;
+}
+.info-boy h3{
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    margin-right: 10px;
+}
+.follow{
+    margin-top: 2rem;
+    display: flex;
+    height: 76px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+.follow h4{
+    margin-bottom: 4px;
+}
+.follow p{
+    font-size: .8rem;
+    color: #777;
+}
